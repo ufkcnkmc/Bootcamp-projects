@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.6;
+  background: linear-gradient(to top, #262626, #000);
+  padding: 0;
+  min-height: 100vh;
+  color: #fff;
+}
+/* Navbar */
+
+.navbar {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 20rem;
+  margin-right: 3rem;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  flex-grow: 1;
+}
+
+.nav-menu a {
+  color: #999;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+}
+
+.nav-menu a:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.profile-icon {
+  margin-right: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.profile-icon:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
