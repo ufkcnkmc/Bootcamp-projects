@@ -254,3 +254,44 @@ body {
   background: rgba(255, 255, 255, 0.1);
   margin: 2rem 0;
 }
+
+/* Footer */
+.footer {
+  padding: 2rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-text {
+  color: #999;
+  font-size: 1rem;
+}
+
+.designer-name {
+  color: #fff;
+  font-weight: 500;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-link {
+  color: #999;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  color: #fff;
+  transform: translateY(-3px);
+}
