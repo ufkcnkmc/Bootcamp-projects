@@ -65,10 +65,10 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 /* Hero Section */
-.hero{
+.hero {
   width: 100%;
   height: 80vh;
-  background-image: url('images/friendsposter.jpeg');
+  background-image: url("images/friendsposter.jpeg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -77,8 +77,8 @@ body {
   padding: 0 20rem;
   margin-bottom: 2rem;
 }
-.hero::before{
-  content: '';
+.hero::before {
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -91,18 +91,84 @@ body {
   font-size: 3.5rem;
   font-weight: 700;
   color: #fff;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   letter-spacing: 2px;
 }
-.hero-content{
+.hero-content {
   position: relative;
   z-index: 1;
   max-width: 1040px;
   margin-bottom: 3rem;
 }
-.hero-description{
+.hero-description {
   color: #fff;
   font-size: 1.1rem;
   line-height: 1.6;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+/* Epispdes Section */
+.episodes {
+  padding: 2rem 0;
+}
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0;
+}
+.section-title {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.episode-cards {
+  display: flex;
+  gap: 10px; /* (5*200)+(4*10) = 1040 */
+  justify-content: space-between;
+}
+.episode-card {
+  width: 200px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+}
+
+.episode-card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.episode-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex: 1;
+}
+
+.episode-info {
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.episode-info h3 {
+  color: #fff;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.episode-info p {
+  color: #999;
+  font-size: 0.8rem;
 }
