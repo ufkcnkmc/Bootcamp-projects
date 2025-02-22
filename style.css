@@ -16,7 +16,6 @@ body {
   color: #fff;
 }
 /* Navbar */
-
 .navbar {
   padding: 1rem 0;
   display: flex;
@@ -24,8 +23,9 @@ body {
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .nav-logo {
-  color: #fff;
+  color: white;
   font-size: 1.5rem;
   font-weight: bold;
   margin-left: 20rem;
@@ -63,4 +63,46 @@ body {
 }
 .profile-icon:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+/* Hero Section */
+.hero{
+  width: 100%;
+  height: 80vh;
+  background-image: url('images/friendsposter.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 20rem;
+  margin-bottom: 2rem;
+}
+.hero::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, #000, transparent);
+  pointer-events: none;
+}
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+.hero-content{
+  position: relative;
+  z-index: 1;
+  max-width: 1040px;
+  margin-bottom: 3rem;
+}
+.hero-description{
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
