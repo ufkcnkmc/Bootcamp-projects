@@ -26,11 +26,7 @@ body {
   top: 0;
   left: 0;
   z-index: 1000;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.9),
-    rgba(0, 0, 0, 0.8)
-  );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
   backdrop-filter: blur(8px);
 }
 
@@ -83,6 +79,44 @@ body {
 
 .profile-icon:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Hamburger Menu */
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.nav-toggle-label .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-close {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.nav-close:hover {
+  color: #ff4444;
+  transform: rotate(90deg);
 }
 
 /* Hero Section */
@@ -140,7 +174,6 @@ body {
   overflow-wrap: break-word;
   hyphens: auto;
 }
-
 /* Epispdes Section */
 .episodes {
   padding: 2rem 0;
@@ -272,7 +305,7 @@ body {
 .character-card:hover {
   transform: scale(1.2);
   background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   z-index: 2;
 }
 
@@ -288,12 +321,7 @@ body {
   left: 0;
   right: 0;
   padding: 1.5rem;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.9),
-    rgba(0, 0, 0, 0.5),
-    transparent
-  );
+  background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.5), transparent);
   color: #fff;
 }
 
@@ -319,9 +347,9 @@ body {
 
 .character-card:hover .character-description {
   display: block;
-}
+} 
 
-.section-divider {
+.section-divider{
   width: 100%;
   height: 1.1px;
   background: rgba(255, 255, 255, 0.1);
@@ -368,28 +396,28 @@ body {
   color: #fff;
   transform: translateY(-3px);
 }
+
 /* Responsive Design */
 @media (max-width: 1200px) {
   .nav-logo {
     margin-left: 2rem;
   }
-
+  
   .container {
     padding: 0 2rem;
   }
-
+  
   .hero {
     padding: 0 2rem;
   }
 }
-/*  */
+
 @media (max-width: 992px) {
   .nav-logo {
     margin-left: 1rem;
   }
 
   .episode-cards {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -414,32 +442,17 @@ body {
     padding: 0 1rem;
   }
 }
-/*  */
+
 @media (max-width: 768px) {
   .navbar {
     padding: 1rem;
   }
-  .nav-close {
-    display: block;
-  }
-  .profile-icon {
-    margin-right: 0;
-  }
 
-  .hamburger {
-    display: block;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+  .nav-toggle-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
   }
 
   .nav-menu {
@@ -454,30 +467,9 @@ body {
     text-align: left;
     transition: 0.3s;
     padding: 4rem 2rem;
-    z-index: 100;
+    z-index: 998;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
   }
-  .nav-toggle-label {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .nav-toggle:checked ~ .nav-menu {
-    left: 0;
-  }
-  .nav-toggle:checked ~ .nav-toggle-label .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .nav-toggle:checked ~ .nav-toggle-label .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .nav-toggle:checked ~ .nav-toggle-label .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
 
   .nav-menu li {
     margin: 1rem 0;
@@ -499,22 +491,39 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
   }
 
-  .nav-menu li a:active ~ #nav-toggle {
-    display: none;
+  .nav-toggle:checked ~ .nav-menu {
+    left: 0;
+  }
+
+  .nav-toggle:checked ~ .nav-toggle-label .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle:checked ~ .nav-toggle-label .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .nav-toggle:checked ~ .nav-toggle-label .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-close {
+    display: block;
+  }
+
+  .nav-logo {
+    margin-left: 1rem;
+    margin-right: auto;
+  }
+
+  .profile-icon {
+    margin-right: 0;
   }
 
   .hero {
-    margin-top: 60px;
     height: 60vh;
+    margin-top: 60px;
     padding: 0 1rem;
-  }
-  .section-title {
-    padding: 0 1rem;
-  }
-
-  .hero-content {
-    padding: 0;
-    margin-bottom: 2rem;
   }
 
   .hero-title {
@@ -527,13 +536,6 @@ body {
 
   .episode-card {
     width: calc(50% - 20px);
-  }
-  .episode-cards {
-    padding: 0 1rem;
-  }
-
-  .character-cards {
-    padding: 0 1rem;
   }
 
   .character-card {
@@ -548,21 +550,19 @@ body {
     line-height: 1.4;
   }
 
-  .footer-content {
+  .section-title, .episode-cards, .character-cards {
     padding: 0 1rem;
   }
 }
-/*  */
+
 @media (max-width: 576px) {
   .nav-logo {
     font-size: 1.2rem;
   }
+
   .nav-menu {
     width: 100%;
     padding: 3rem 1.5rem;
-  }
-  .hero-content {
-    padding: 0 1rem;
   }
 
   .hero-title {
@@ -571,6 +571,10 @@ body {
 
   .hero-description {
     font-size: 0.8rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
   }
 
   .section-title {
@@ -593,9 +597,9 @@ body {
   }
 
   .character-card {
-    width: 100%;
     height: auto;
     min-height: 300px;
+    width: 100%;
   }
 
   .character-info h3 {
@@ -621,42 +625,6 @@ body {
   }
 }
 
-.nav-toggle {
-  display: none;
-}
-
-.nav-toggle-label {
-  display: none;
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: 1rem;
-}
-
-.nav-toggle-label .bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: white;
-  transition: all 0.3s ease-in-out;
-}
-.nav-close {
-  display: none;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  color: #fff;
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 0.5rem;
-  transition: all 0.3s ease;
-}
-
-.nav-close:hover {
-  color: #ff4444;
-  transform: rotate(90deg);
-}
-/* Videos Controller */
 .video-container {
   position: relative;
   width: 100%;
