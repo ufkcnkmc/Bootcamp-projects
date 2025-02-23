@@ -33,9 +33,14 @@
         <li><label for="nav-toggle"><a href="#characters">Characters</a></label></li>
         <li><label for="nav-toggle"><a href="#footer">About</a></label></li>
       </ul>
+      <button id="favoriteBtn" class="favorite-btn">
+        <i class="fas fa-heart"></i>
+        <span>Favorilere Ekle</span>
+      </button>
       <div class="profile-icon">
         <i class="fas fa-user"></i>
       </div>
+      
     </nav>
     <!-- Section for Main -->
     <section class="hero" id="hero">
@@ -251,5 +256,22 @@
         </div>
       </div>
     </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const favoriteBtn = document.getElementById('favoriteBtn');
+        let isFavorite = false;
+
+        favoriteBtn.addEventListener('click', function() {
+          isFavorite = !isFavorite;
+          if (isFavorite) {
+            favoriteBtn.classList.add('active');
+            favoriteBtn.querySelector('span').textContent = 'Favorilerde';
+          } else {
+            favoriteBtn.classList.remove('active');
+            favoriteBtn.querySelector('span').textContent = 'Favorilere Ekle';
+          }
+        });
+      });
+    </script>
   </body>
 </html>
