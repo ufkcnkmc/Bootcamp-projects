@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>To-Do List</title>
   </head>
   <body>
@@ -25,7 +29,7 @@
             <textarea
               name="taskDescription"
               id="taskDescription"
-              placeholder="Görev Açıklaması Giriniz(Opsiyonel)"
+              placeholder="Görev Açıklaması Giriniz (Opsiyonel)"
             ></textarea>
           </div>
           <div class="form-group priority-group">
@@ -45,24 +49,22 @@
               </label>
             </div>
           </div>
-          <button type="submit" class="btn">
+          <button type="submit" class="btn-addtask">
             <i class="fas fa-plus"></i>Görev Ekle
           </button>
 
           <div class="filters">
             <button type="button" id="showCompleted" class="btn-filter">
-                <i class="fas fa-check-double"></i>Tamamlanan Görevler
+              <i class="fas fa-check-double"></i>Tamamlanan Görevler
             </button>
             <button type="button" id="sortByPriority" class="btn-filter">
-                <i class="fas fa-sort"></i>Önceliğe Göre Sırala
+              <i class="fas fa-sort"></i>Önceliğe Göre Sırala
             </button>
           </div>
         </form>
       </aside>
       <main>
-        <div class="taskList" id="taskList">
-            
-        </div>
+        <div class="taskList" id="taskList"></div>
       </main>
     </div>
   </body>
