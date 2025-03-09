@@ -1,0 +1,1336 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Electronics Ürün 1",
+            "price": 410.23,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/10/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 12
+            }
+        },
+        {
+            "id": 2,
+            "title": "Electronics Ürün 2",
+            "price": 188.4,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/20/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 14
+            }
+        },
+        {
+            "id": 3,
+            "title": "Electronics Ürün 3",
+            "price": 294.39,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/30/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 16
+            }
+        },
+        {
+            "id": 4,
+            "title": "Electronics Ürün 4",
+            "price": 441.18,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/40/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 18
+            }
+        },
+        {
+            "id": 5,
+            "title": "Electronics Ürün 5",
+            "price": 473.07,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/50/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 20
+            }
+        },
+        {
+            "id": 6,
+            "title": "Electronics Ürün 6",
+            "price": 126.39,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/60/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 22
+            }
+        },
+        {
+            "id": 7,
+            "title": "Electronics Ürün 7",
+            "price": 150.22,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/70/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 24
+            }
+        },
+        {
+            "id": 8,
+            "title": "Electronics Ürün 8",
+            "price": 297.07,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/80/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 26
+            }
+        },
+        {
+            "id": 9,
+            "title": "Electronics Ürün 9",
+            "price": 131.23,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/90/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 28
+            }
+        },
+        {
+            "id": 10,
+            "title": "Electronics Ürün 10",
+            "price": 136.29,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/100/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 30
+            }
+        },
+        {
+            "id": 11,
+            "title": "Electronics Ürün 11",
+            "price": 162.11,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/110/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 32
+            }
+        },
+        {
+            "id": 12,
+            "title": "Electronics Ürün 12",
+            "price": 474.34,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/120/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 34
+            }
+        },
+        {
+            "id": 13,
+            "title": "Electronics Ürün 13",
+            "price": 227.08,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/130/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 36
+            }
+        },
+        {
+            "id": 14,
+            "title": "Electronics Ürün 14",
+            "price": 187.0,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/140/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 38
+            }
+        },
+        {
+            "id": 15,
+            "title": "Electronics Ürün 15",
+            "price": 68.74,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/150/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 40
+            }
+        },
+        {
+            "id": 16,
+            "title": "Electronics Ürün 16",
+            "price": 109.85,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/160/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 42
+            }
+        },
+        {
+            "id": 17,
+            "title": "Electronics Ürün 17",
+            "price": 107.52,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/170/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 44
+            }
+        },
+        {
+            "id": 18,
+            "title": "Electronics Ürün 18",
+            "price": 259.17,
+            "description": "Electronics kategorisine ait harika bir ürün!",
+            "category": "electronics",
+            "image": "https://picsum.photos/id/180/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 46
+            }
+        },
+        {
+            "id": 19,
+            "title": "Cosmetics Ürün 1",
+            "price": 91.33,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/10/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 12
+            }
+        },
+        {
+            "id": 20,
+            "title": "Cosmetics Ürün 2",
+            "price": 331.73,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/20/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 14
+            }
+        },
+        {
+            "id": 21,
+            "title": "Cosmetics Ürün 3",
+            "price": 311.02,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/30/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 16
+            }
+        },
+        {
+            "id": 22,
+            "title": "Cosmetics Ürün 4",
+            "price": 258.11,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/40/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 18
+            }
+        },
+        {
+            "id": 23,
+            "title": "Cosmetics Ürün 5",
+            "price": 370.87,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/50/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 20
+            }
+        },
+        {
+            "id": 24,
+            "title": "Cosmetics Ürün 6",
+            "price": 258.71,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/60/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 22
+            }
+        },
+        {
+            "id": 25,
+            "title": "Cosmetics Ürün 7",
+            "price": 142.24,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/70/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 24
+            }
+        },
+        {
+            "id": 26,
+            "title": "Cosmetics Ürün 8",
+            "price": 100.37,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/80/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 26
+            }
+        },
+        {
+            "id": 27,
+            "title": "Cosmetics Ürün 9",
+            "price": 119.11,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/90/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 28
+            }
+        },
+        {
+            "id": 28,
+            "title": "Cosmetics Ürün 10",
+            "price": 337.27,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/100/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 30
+            }
+        },
+        {
+            "id": 29,
+            "title": "Cosmetics Ürün 11",
+            "price": 454.66,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/110/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 32
+            }
+        },
+        {
+            "id": 30,
+            "title": "Cosmetics Ürün 12",
+            "price": 232.12,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/120/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 34
+            }
+        },
+        {
+            "id": 31,
+            "title": "Cosmetics Ürün 13",
+            "price": 381.75,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/130/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 36
+            }
+        },
+        {
+            "id": 32,
+            "title": "Cosmetics Ürün 14",
+            "price": 272.23,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/140/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 38
+            }
+        },
+        {
+            "id": 33,
+            "title": "Cosmetics Ürün 15",
+            "price": 306.31,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/150/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 40
+            }
+        },
+        {
+            "id": 34,
+            "title": "Cosmetics Ürün 16",
+            "price": 472.79,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/160/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 42
+            }
+        },
+        {
+            "id": 35,
+            "title": "Cosmetics Ürün 17",
+            "price": 287.18,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/170/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 44
+            }
+        },
+        {
+            "id": 36,
+            "title": "Cosmetics Ürün 18",
+            "price": 338.01,
+            "description": "Cosmetics kategorisine ait harika bir ürün!",
+            "category": "cosmetics",
+            "image": "https://picsum.photos/id/180/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 46
+            }
+        },
+        {
+            "id": 37,
+            "title": "Shoes Ürün 1",
+            "price": 491.14,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/10/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 12
+            }
+        },
+        {
+            "id": 38,
+            "title": "Shoes Ürün 2",
+            "price": 442.57,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/20/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 14
+            }
+        },
+        {
+            "id": 39,
+            "title": "Shoes Ürün 3",
+            "price": 424.38,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/30/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 16
+            }
+        },
+        {
+            "id": 40,
+            "title": "Shoes Ürün 4",
+            "price": 319.0,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/40/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 18
+            }
+        },
+        {
+            "id": 41,
+            "title": "Shoes Ürün 5",
+            "price": 195.27,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/50/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 20
+            }
+        },
+        {
+            "id": 42,
+            "title": "Shoes Ürün 6",
+            "price": 475.55,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/60/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 22
+            }
+        },
+        {
+            "id": 43,
+            "title": "Shoes Ürün 7",
+            "price": 187.38,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/70/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 24
+            }
+        },
+        {
+            "id": 44,
+            "title": "Shoes Ürün 8",
+            "price": 66.42,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/80/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 26
+            }
+        },
+        {
+            "id": 45,
+            "title": "Shoes Ürün 9",
+            "price": 349.34,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/90/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 28
+            }
+        },
+        {
+            "id": 46,
+            "title": "Shoes Ürün 10",
+            "price": 377.26,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/100/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 30
+            }
+        },
+        {
+            "id": 47,
+            "title": "Shoes Ürün 11",
+            "price": 242.63,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/110/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 32
+            }
+        },
+        {
+            "id": 48,
+            "title": "Shoes Ürün 12",
+            "price": 249.43,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/120/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 34
+            }
+        },
+        {
+            "id": 49,
+            "title": "Shoes Ürün 13",
+            "price": 156.13,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/130/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 36
+            }
+        },
+        {
+            "id": 50,
+            "title": "Shoes Ürün 14",
+            "price": 325.56,
+            "description": "Shoes kategorisine ait harika bir ürün!",
+            "category": "shoes",
+            "image": "https://picsum.photos/id/140/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 38
+            }
+        },
+        {
+            "id": 51,
+            "title": "Clothing Ürün 1",
+            "price": 445.32,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/10/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 12
+            }
+        },
+        {
+            "id": 52,
+            "title": "Clothing Ürün 2",
+            "price": 97.01,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/20/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 14
+            }
+        },
+        {
+            "id": 53,
+            "title": "Clothing Ürün 3",
+            "price": 244.48,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/30/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 16
+            }
+        },
+        {
+            "id": 54,
+            "title": "Clothing Ürün 4",
+            "price": 291.81,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/40/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 18
+            }
+        },
+        {
+            "id": 55,
+            "title": "Clothing Ürün 5",
+            "price": 142.78,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/50/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 20
+            }
+        },
+        {
+            "id": 56,
+            "title": "Clothing Ürün 6",
+            "price": 232.57,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/60/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 22
+            }
+        },
+        {
+            "id": 57,
+            "title": "Clothing Ürün 7",
+            "price": 113.11,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/70/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 24
+            }
+        },
+        {
+            "id": 58,
+            "title": "Clothing Ürün 8",
+            "price": 468.34,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/80/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 26
+            }
+        },
+        {
+            "id": 59,
+            "title": "Clothing Ürün 9",
+            "price": 279.27,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/90/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 28
+            }
+        },
+        {
+            "id": 60,
+            "title": "Clothing Ürün 10",
+            "price": 79.03,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/100/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 30
+            }
+        },
+        {
+            "id": 61,
+            "title": "Clothing Ürün 11",
+            "price": 235.9,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/110/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 32
+            }
+        },
+        {
+            "id": 62,
+            "title": "Clothing Ürün 12",
+            "price": 367.2,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/120/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 34
+            }
+        },
+        {
+            "id": 63,
+            "title": "Clothing Ürün 13",
+            "price": 140.81,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/130/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 36
+            }
+        },
+        {
+            "id": 64,
+            "title": "Clothing Ürün 14",
+            "price": 304.33,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/140/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 38
+            }
+        },
+        {
+            "id": 65,
+            "title": "Clothing Ürün 15",
+            "price": 388.22,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/150/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 40
+            }
+        },
+        {
+            "id": 66,
+            "title": "Clothing Ürün 16",
+            "price": 318.26,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/160/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 42
+            }
+        },
+        {
+            "id": 67,
+            "title": "Clothing Ürün 17",
+            "price": 493.85,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/170/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 44
+            }
+        },
+        {
+            "id": 68,
+            "title": "Clothing Ürün 18",
+            "price": 490.35,
+            "description": "Clothing kategorisine ait harika bir ürün!",
+            "category": "clothing",
+            "image": "https://picsum.photos/id/180/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 46
+            }
+        },
+        {
+            "id": 69,
+            "title": "Bags Ürün 1",
+            "price": 428.25,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/10/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 12
+            }
+        },
+        {
+            "id": 70,
+            "title": "Bags Ürün 2",
+            "price": 384.9,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/20/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 14
+            }
+        },
+        {
+            "id": 71,
+            "title": "Bags Ürün 3",
+            "price": 251.54,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/30/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 16
+            }
+        },
+        {
+            "id": 72,
+            "title": "Bags Ürün 4",
+            "price": 92.71,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/40/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 18
+            }
+        },
+        {
+            "id": 73,
+            "title": "Bags Ürün 5",
+            "price": 490.69,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/50/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 20
+            }
+        },
+        {
+            "id": 74,
+            "title": "Bags Ürün 6",
+            "price": 63.54,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/60/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 22
+            }
+        },
+        {
+            "id": 75,
+            "title": "Bags Ürün 7",
+            "price": 445.49,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/70/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 24
+            }
+        },
+        {
+            "id": 76,
+            "title": "Bags Ürün 8",
+            "price": 253.37,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/80/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 26
+            }
+        },
+        {
+            "id": 77,
+            "title": "Bags Ürün 9",
+            "price": 307.36,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/90/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 28
+            }
+        },
+        {
+            "id": 78,
+            "title": "Bags Ürün 10",
+            "price": 126.3,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/100/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 30
+            }
+        },
+        {
+            "id": 79,
+            "title": "Bags Ürün 11",
+            "price": 114.82,
+            "description": "Bags kategorisine ait harika bir ürün!",
+            "category": "bags",
+            "image": "https://picsum.photos/id/110/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 32
+            }
+        },
+        {
+            "id": 80,
+            "title": "Furniture Ürün 1",
+            "price": 114.98,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/10/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 12
+            }
+        },
+        {
+            "id": 81,
+            "title": "Furniture Ürün 2",
+            "price": 193.98,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/20/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 14
+            }
+        },
+        {
+            "id": 82,
+            "title": "Furniture Ürün 3",
+            "price": 239.79,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/30/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 16
+            }
+        },
+        {
+            "id": 83,
+            "title": "Furniture Ürün 4",
+            "price": 266.62,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/40/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 18
+            }
+        },
+        {
+            "id": 84,
+            "title": "Furniture Ürün 5",
+            "price": 279.92,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/50/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 20
+            }
+        },
+        {
+            "id": 85,
+            "title": "Furniture Ürün 6",
+            "price": 142.4,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/60/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 22
+            }
+        },
+        {
+            "id": 86,
+            "title": "Furniture Ürün 7",
+            "price": 140.64,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/70/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 24
+            }
+        },
+        {
+            "id": 87,
+            "title": "Furniture Ürün 8",
+            "price": 435.02,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/80/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 26
+            }
+        },
+        {
+            "id": 88,
+            "title": "Furniture Ürün 9",
+            "price": 333.39,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/90/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 28
+            }
+        },
+        {
+            "id": 89,
+            "title": "Furniture Ürün 10",
+            "price": 422.79,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/100/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 30
+            }
+        },
+        {
+            "id": 90,
+            "title": "Furniture Ürün 11",
+            "price": 284.51,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/110/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 32
+            }
+        },
+        {
+            "id": 91,
+            "title": "Furniture Ürün 12",
+            "price": 437.16,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/120/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 34
+            }
+        },
+        {
+            "id": 92,
+            "title": "Furniture Ürün 13",
+            "price": 455.97,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/130/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 36
+            }
+        },
+        {
+            "id": 93,
+            "title": "Furniture Ürün 14",
+            "price": 281.4,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/140/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 38
+            }
+        },
+        {
+            "id": 94,
+            "title": "Furniture Ürün 15",
+            "price": 132.14,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/150/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 40
+            }
+        },
+        {
+            "id": 95,
+            "title": "Furniture Ürün 16",
+            "price": 348.2,
+            "description": "Furniture kategorisine ait harika bir ürün!",
+            "category": "furniture",
+            "image": "https://picsum.photos/id/160/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 42
+            }
+        },
+        {
+            "id": 96,
+            "title": "Books Ürün 1",
+            "price": 321.48,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/10/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 12
+            }
+        },
+        {
+            "id": 97,
+            "title": "Books Ürün 2",
+            "price": 461.46,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/20/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 14
+            }
+        },
+        {
+            "id": 98,
+            "title": "Books Ürün 3",
+            "price": 186.5,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/30/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 16
+            }
+        },
+        {
+            "id": 99,
+            "title": "Books Ürün 4",
+            "price": 421.48,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/40/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 18
+            }
+        },
+        {
+            "id": 100,
+            "title": "Books Ürün 5",
+            "price": 182.15,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/50/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 20
+            }
+        },
+        {
+            "id": 101,
+            "title": "Books Ürün 6",
+            "price": 156.6,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/60/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 22
+            }
+        },
+        {
+            "id": 102,
+            "title": "Books Ürün 7",
+            "price": 155.32,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/70/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 24
+            }
+        },
+        {
+            "id": 103,
+            "title": "Books Ürün 8",
+            "price": 177.27,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/80/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 26
+            }
+        },
+        {
+            "id": 104,
+            "title": "Books Ürün 9",
+            "price": 260.58,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/90/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 28
+            }
+        },
+        {
+            "id": 105,
+            "title": "Books Ürün 10",
+            "price": 242.06,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/100/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 30
+            }
+        },
+        {
+            "id": 106,
+            "title": "Books Ürün 11",
+            "price": 232.8,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/110/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 32
+            }
+        },
+        {
+            "id": 107,
+            "title": "Books Ürün 12",
+            "price": 206.35,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/120/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 34
+            }
+        },
+        {
+            "id": 108,
+            "title": "Books Ürün 13",
+            "price": 137.84,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/130/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 36
+            }
+        },
+        {
+            "id": 109,
+            "title": "Books Ürün 14",
+            "price": 117.17,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/140/300/300",
+            "rating": {
+                "rate": 3.5,
+                "count": 38
+            }
+        },
+        {
+            "id": 110,
+            "title": "Books Ürün 15",
+            "price": 342.9,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/150/300/300",
+            "rating": {
+                "rate": 2.5,
+                "count": 40
+            }
+        },
+        {
+            "id": 111,
+            "title": "Books Ürün 16",
+            "price": 250.95,
+            "description": "Books kategorisine ait harika bir ürün!",
+            "category": "books",
+            "image": "https://picsum.photos/id/160/300/300",
+            "rating": {
+                "rate": 3.0,
+                "count": 42
+            }
+        }
+    ]
+}
