@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UShop - Mini E-Ticaret Uygulaması</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.2/themes/dark-hive/jquery-ui.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="#"><i class="fas fa-store"></i> UShop</a>
+        </div>
+
+        <div class="navbar-center">
+          <div class="search-box">
+            <input type="text" id="search-input" placeholder="Ürün ara..." />
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+          </div>
+
+          <div class="category-dropdown">
+            <button class="dropdown-btn">
+              Kategoriler <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="dropdown-content" id="category-list">
+              <!-- Kategoriler JavaScript ile doldurulacak -->
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-container">
+          <button class="cart-btn" id="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+          </button>
+          <div class="mini-cart" id="mini-cart">
+            <h3>Sepetim</h3>
+            <div class="cart-items">
+              <!-- Sepet öğeleri JavaScript ile doldurulacak -->
+            </div>
+            <div class="cart-total">
+              <p>Toplam: <span id="cart-total-price">0.00</span> TL</p>
+            </div>
+            <div class="cart-buttons">
+              <button id="clear-cart-btn" class="btn clear-btn">
+                Sepeti Temizle
+              </button>
+              <button id="checkout-btn" class="btn checkout-btn">
+                Ödeme Yap
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-container">
+      <div class="container">
+        <div class="sidebar">
+          <div class="filter-section">
+            <h3>Kategoriler</h3>
+            <ul class="category-filter" id="sidebar-categories">
+              <!-- Kategoriler JavaScript ile doldurulacak -->
+            </ul>
+          </div>
+
+          <div class="filter-section">
+            <h3>Fiyat Aralığı</h3>
+            <div class="price-slider-container">
+              <div id="price-slider"></div>
+              <div class="price-labels">
+                <span id="min-price">0 TL</span>
+                <span id="max-price">500 TL</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-section">
+            <h3>Filtreleme Seçenekleri</h3>
+            <div class="filter-options">
+              <label>
+                <input type="checkbox" id="sort-by-rating" /> Puana Göre Sırala
+              </label>
+              <label>
+                <input type="checkbox" id="sort-by-price" /> Fiyata Göre Sırala
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="featured-products">
+            <h2>Öne Çıkan Ürünler</h2>
+            <div class="featured-carousel" id="featured-carousel">
+              <!-- Öne çıkan ürünler JavaScript ile doldurulacak -->
+            </div>
+          </div>
+
+          <div class="products-header">
+            <h2>Tüm Ürünler</h2>
+          </div>
+
+          <div class="products-container" id="products-container">
+            <!-- Ürünler JavaScript ile doldurulacak -->
+          </div>
+
+          <div class="pagination" id="pagination">
+            <!-- Sayfalama JavaScript ile doldurulacak -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="product-detail-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="product-detail" id="product-detail-content">
+          <!-- Ürün detayları JavaScript ile doldurulacak -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section about">
+            <h3>Hakkımızda</h3>
+            <p>
+              UShop, sizlere en kaliteli ürünleri en uygun fiyatlarla sunmayı
+              amaçlayan bir e-ticaret platformudur.
+            </p>
+          </div>
+
+          <div class="footer-section links">
+            <h3>Hızlı Linkler</h3>
+            <ul>
+              <li><a href="#">Ana Sayfa</a></li>
+              <li><a href="#">Ürünler</a></li>
+              <li><a href="#">Hakkımızda</a></li>
+              <li><a href="#">İletişim</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section social">
+            <h3>Sosyal Medya</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-section contact">
+            <h3>İletişim</h3>
+            <p><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</p>
+            <p><i class="fas fa-phone"></i> +90 501 219 3474</p>
+            <p><i class="fas fa-envelope"></i> ufkcnkcm@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 UShop- Tüm Hakları Saklıdır.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <script src="script/app.js"></script>
+  </body>
+</html>
