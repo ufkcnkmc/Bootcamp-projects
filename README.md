@@ -1,92 +1,89 @@
-# Bootcamp Projects Repository
+# 📌 Bootcamp Projects Repository
 
-This repository contains two web projects developed as part of the Bootcamp. Each project demonstrates different aspects of web development using HTML, CSS, and JavaScript.
+This repository contains three web projects developed as part of the Bootcamp. Each project demonstrates different aspects of web development using HTML, CSS, and JavaScript.
 
 ---
 
-## Project Overview
+## 🚀 Project Overview
 
-### 1. My Favorite Series – Friends
+### 🖥️ 1. My Favorite Series – Friends
+A responsive web page dedicated to the popular TV series **Friends**.
 
-This project is a responsive web page dedicated to the popular TV series **Friends**.  
 **Features:**
-
-- **Responsive Design:**
-  - Optimized for all devices.
-- **Dynamic Navbar:**
-  - Includes a hamburger menu and profile icon.
-- **Add to Favorites Button:**
-  - Works interactively using JavaScript.
-- **Video Playback:**
-  - Embedded videos for favorite episodes.
-- **IMDb Link:**
-  - The series title links to the IMDb page.
-- **CSS Animations:**
-  - Includes hover effects and transition animations.
+- 📱 **Responsive Design** – Optimized for all devices.
+- 📌 **Dynamic Navbar** – Includes a hamburger menu and profile icon.
+- ❤️ **Add to Favorites** – Interactively saves user preferences.
+- 🎥 **Video Playback** – Embedded videos for favorite episodes.
+- ⭐ **IMDb Link** – Redirects to the IMDb page.
+- 🎨 **CSS Animations** – Hover effects and smooth transitions.
 
 ---
 
-### 2. To-Do List App
+### 📝 2. To-Do List App
+A web-based task manager for organizing daily activities.
 
-This web application helps you manage your daily tasks.  
 **Features:**
-
-- **Task Addition:**
-  - Task title is required.
-  - Optional task description can be added.
-  - Tasks can be assigned a priority ("Low", "Medium", or "High").
-- **Task Completion:**
-  - Toggle tasks as completed.
-- **Task Deletion:**
-  - Remove unwanted tasks.
-- **Filtering and Sorting:**
-  - View only completed tasks or list all tasks.
-  - Tasks can be sorted by priority.
+- ➕ **Task Addition** – Create tasks with optional descriptions and priorities.
+- ✅ **Task Completion** – Toggle between completed and pending tasks.
+- ❌ **Task Deletion** – Remove unwanted tasks.
+- 🔍 **Filtering & Sorting** – View completed tasks or sort by priority.
 
 ---
 
-## Technologies Used
+### 🛍️ 3. UShop – Mini E-Commerce App
+A small-scale e-commerce application that fetches fake product data using **JSON Server**.
 
-- **HTML5** – For structure
-- **CSS3** – For styling, layout, and responsive design
-- **JavaScript (ES6)** – For interactivity
-- **Font Awesome** – For icons
-- **Google Fonts (Poppins)** – For typography
+**Features:**
+- 📦 **Product Listing** – Dynamically fetched from a fake API.
+- 🛒 **Add to Cart** – Products can be added to a local storage-based shopping cart.
+- 🔍 **Filtering & Sorting** – Products can be filtered by category and sorted by price or rating.
+- 🎨 **jQuery Animations & Effects** – Smooth UI interactions and modal popups.
+- 🖼️ **Image Zoom & Slideshow** – Product images can be enlarged using Fancybox.
+- ⚡ **Advanced DOM Manipulation** – Dynamic content updates using **jQuery**.
 
 ---
 
-## Installation & Usage
+## 🛠️ Technologies Used
+- **HTML5, CSS3 (Tailwind / Bootstrap)**
+- **JavaScript (ES6+), jQuery, AJAX**
+- **JSON Server (Fake API)**
+- **LocalStorage (Cart Management)**
+- **FontAwesome, Fancybox, Owl Carousel**
+
+---
+
+## 📥 Installation & Usage
 
 To run the projects locally:
 
-1. **Clone the repository:**
-
-   git clone https://github.com/ufkcnkmc/Bootcamp-projects.git
-
-2. **Navigate to the repository directory:**
-
-   cd Bootcamp-projects
-
-3. **Select the project folder:**
-
-   - Use the `project1` folder for **My Favorite Series – Friends**.
-   - Use the `project2` folder for **To-Do List App**.
-
-4. **Launch the application:**
-   - Open the respective `index.html` file in your web browser.
-
----
-
-## Contributing
-
-If you'd like to improve the projects, please fork the repository and submit a pull request. For major changes, please open an issue to discuss your ideas first.
-
----
-
-## License
-
-This repository is open source and available under the [License Name] license.
+### 1️⃣ Clone the Repository:
+```sh
+git clone https://github.com/ufkcnkmc/Bootcamp-projects.git
+```
+### 2️⃣ Navigate to the Repository:
+```sh
+cd Bootcamp-projects
+```
+### 3️⃣ Select a Project: 
+* `project-1`: **My Favorite Series – Friends** 
+* `project-2`: **To-Do List App** 
+* `project-3`: **UShop – Mini E-Commerce App**
+### 4️⃣ Run the Application:
+* Open `index.html` in a browser.
+#### 🖥️ Running JSON Server for Project 3:
+If using **UShop**, start the fake backend:
+```sh
+json-server --watch data/products.json --port 8001
+```
+Access the API at: http://localhost:8001/products
 
 ---
+🤝 Contributing
+Contributions are welcome! Please fork the repository and submit a pull request. Open an issue for major changes before implementation.
 
-Happy coding!
+---
+📜 License
+This repository is open-source and available under the [License Name] license.
+
+---
+Happy coding! 🚀✨
