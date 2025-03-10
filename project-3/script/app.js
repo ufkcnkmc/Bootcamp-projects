@@ -30,7 +30,7 @@ $(document).ready(function () {
 
   function fetchProducts() {
     $.ajax({
-      url: "http://localhost:8001/products",
+      url: "http://localhost:8001/products?_sort=id&_order=asc",
       method: "GET",
       dataType: "json",
       success: function (data) {
@@ -117,7 +117,7 @@ $(document).ready(function () {
           product.image
         }" alt="${product.title}" class="product-image">
         <div class="product-info">
-          <h3 class="product-title">${categoryName} Ürün ${product.id % 18 || 10}</h3>
+        <h3 class="product-title">${categoryName} Ürün ${filteredProducts.indexOf(product) + 1}</h3>
           <div class="product-price">${product.price.toFixed(2)} TL</div>
           <div class="product-rating">
             ${starsHTML}
@@ -143,6 +143,8 @@ $(document).ready(function () {
       );
       return;
     }
+
+    filteredProducts.sort((a, b) => a.id - b.id);
 
     filteredProducts
       .slice((currentPage - 1) * productsPerPage, currentPage * productsPerPage)
@@ -198,7 +200,7 @@ $(document).ready(function () {
                 </div>
                 <div class="product-detail-info">
                     <h2 class="product-detail-title">${categoryName} Ürün ${
-      product.id % 18 || 10
+      product.id % 18 || 18
     }</h2>
                     <div class="product-detail-price">${product.price.toFixed(
                       2
@@ -236,10 +238,13 @@ $(document).ready(function () {
   function filterByCategory(category) {
     if (category === "all") {
       filteredProducts = [...products];
+      $(".products-header h2").text("Tüm Ürünler");
     } else {
       filteredProducts = products.filter(
         (product) => product.category === category
       );
+      let categoryName = translateCategory(category);
+      $(".products-header h2").text(`Tüm ${categoryName} Ürünleri`);
     }
 
     applyPriceFilter();
@@ -429,7 +434,7 @@ $(document).ready(function () {
                         <img src="${product.image}" alt="${product.title}">
                         <div class="cart-item-info">
                             <div class="cart-item-title">${categoryName} Ürün ${
-        product.id % 18 || 15
+        product.id % 18 || 18
       }</div>
                             <div class="cart-item-price">${product.price.toFixed(
                               2
